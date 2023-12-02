@@ -16,16 +16,14 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 ### ML
-* from sklearn.linear_model import LinearRegression
-* from sklearn.metrics import mean_squared_error
-* from sklearn.model_selection import cross_val_score
+* import statsmodels.api as sm
+* import statsmodels.formula.api as smf
+* from statsmodels.stats.diagnostic import het_breuschpagan
+* from statsmodels.stats.outliers_influence import variance_inflation_factor
+* from statsmodels.tools.eval_measures import rmse
+* from scipy import stats
 * from sklearn.model_selection import train_test_split
-* from sklearn.model_selection import RepeatedKFold
-* from sklearn.model_selection import GridSearchCV
-* from sklearn.model_selection import ParameterGrid
-* from sklearn.inspection import permutation_importance
-* from sklearn.metrics import r2_score
-* import multiprocessing
+* from typing import Union
 
 ## Files 
 In the repository you will find 2 files:
